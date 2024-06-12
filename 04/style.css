@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* menu */
+header {
+    position: sticky;
+    top: 0;
+    padding: 1rem 2rem;
+    box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.4rem;
+    gap: 30px;
+    overflow-x: auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #5e6b74;
+}
+
+a:hover {
+    color: #252d38;
+}
+
+@media (max-width: 700px) {
+    header {
+        display: none;
+    }
+}
+/* menu */
+
+#screen {
+    width: 100%;
+    aspect-ratio: 16/9;
+    position: relative;
+    overflow: hidden;
+}
+
+#start {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(svg/start.svg);
+    background-size: cover;
+   
+}
+
+#game_over {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(svg/lose.svg);
+    background-size: cover;
+}
+
+#level_complete {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(svg/win.svg);
+    background-size: cover;
+}
+
+#game_background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(svg/baggrund.svg);
+    background-size: cover;
+}
+
+#game_elements {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#game_foreground {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(svg/forbrund.svg);
+    background-size: cover;
+    pointer-events: none;
+}
+
+#game_ui {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+#score_board {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+        aspect-ratio: 1/1;
+    width: 5%;
+    background-image: url(svg/pep.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#points {
+    font-family: "Pacifico", cursive;
+    font-size: xx-large;
+    margin-top: 148%;
+    margin-left: 29%;
+}
+
+#life_board {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    aspect-ratio: 1/1;
+    width: 5%;
+    background-image: url(svg/ana.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#liv {
+    font-family: "Pacifico", cursive;
+    font-size: xx-large;
+    margin-left: 120%;
+}
+#time_container {
+    position: absolute;
+    width: 3%;
+    height: 30%;
+    top: 5%;
+    left: 95%;
+    border: 0.2vw solid white;
+}
+
+#time_sprite {
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 100%;
+    background-color: lime;
+}
+
+.time {
+    animation-name: time_kf;
+    animation-duration: 20s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes time_kf {
+    0% {
+        transform: scaleY(1);
+        background-color: lime;
+    }
+
+    50% {
+        transform: scaleY(0.5);
+        background-color: yellow;
+    }
+
+    100% {
+        transform: scaleY(0);
+        background-color: red;
+    }
+}
+
+#good_container1 {
+    position: absolute;
+    top: -10%;
+    aspect-ratio: 1/1;
+    width: 5%;
+}
+
+#good_sprite1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(svg/pep.svg);
+    background-size: cover;
+}
+
+#bad_container1 {
+    position: absolute;
+    top: -10%;
+    aspect-ratio: 1/1;
+    width: 5%;
+}
+
+#bad_sprite1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(svg/ana.svg);
+    background-size: cover;
+}
+
+.pos1 {
+    left: 20%;
+}
+
+.pos2 {
+    left: 30%;
+}
+
+.pos3 {
+    left: 40%;
+}
+
+.pos4 {
+    left: 50%;
+}
+
+.pos5 {
+    left: 60%;
+}
+
+.pos6 {
+    left: 70%;
+}
+
+.fald {
+    animation-name: fald_kf;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes fald_kf {
+        100% {
+            transform: translate(0, 1500%);
+        }
+    }    
+
+.forsvind_good {
+    animation-name: forsvind_good_kf;
+    animation-duration: 0.6s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes forsvind_good_kf {
+    100% {
+        transform: rotate(600deg) scale(0);
+    }
+}
+
+.forsvind_bad {
+    animation-name: forsvind_bad_kf;
+    animation-duration: 0.6s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes forsvind_bad_kf {
+    20% {
+        scale: 1.5;
+    }
+
+    30% {
+        scale: 1;
+    }
+
+    100% {
+        scale: 0;
+    }
+}
+
+.frys {
+    animation-play-state: paused;
+}
+
+.delay1 {
+    animation-delay: 0s;
+}
+
+.delay2 {
+    animation-delay: 0.5s;
+}
+
+.delay3 {
+    animation-delay: 1s;
+}
+
+.delay4 {
+    animation-delay: 1.5s;
+}
+
+.skjul{
+display: none;
+}
+
+
+
+img {
+    padding: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.sketch {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.sketch1 {
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+h1 {
+    font-weight: 400;
+    font-style: normal;
+    color: #5e6b74;
+    text-align: center;
+    padding: 1rem;
+}
+
+h2 {
+    color: #5e6b74;
+    padding: 10px;
+}
+
+p {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    max-width: 55ch;
+
+}

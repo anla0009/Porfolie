@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1922 1081">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #000;
+      }
+
+      .cls-5 {
+        fill: #e7f2ff;
+      }
+
+      .cls-5, .cls-4, .cls-3 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_15" data-name="Layer 15">
+    <rect class="cls-3" x="2" width="1920" height="1080"/>
+    <rect class="cls-5" x="2" width="1920" height="671"/>
+    <rect class="cls-3" y="671" width="1922" height="409"/>
+    <rect class="cls-4" x="2" y="752" width="1920" height="29"/>
+    <rect class="cls-4" y="969" width="1920" height="29"/>
+    <rect class="cls-4" x="2" y="897" width="1920" height="29"/>
+    <rect class="cls-4" x="2" y="671" width="1920" height="29"/>
+    <rect class="cls-4" x="2" y="1051" width="1920" height="29"/>
+    <rect class="cls-4" x="2" y="824" width="1920" height="29"/>
+    <rect class="cls-4" x="-198" y="868" width="411" height="15" transform="translate(883 868) rotate(90)"/>
+    <rect class="cls-4" x="-81.5" y="859.5" width="399" height="20" transform="translate(987.5 751.5) rotate(90)"/>
+    <rect class="cls-4" x="31" y="861" width="399" height="17" transform="translate(1100 639) rotate(90)"/>
+    <rect class="cls-4" x="144" y="862" width="399" height="15" transform="translate(1213 526) rotate(90)"/>
+    <rect class="cls-4" x="246" y="862" width="399" height="15" transform="translate(1315 424) rotate(90)"/>
+    <rect class="cls-4" x="345" y="862" width="399" height="15" transform="translate(1414 325) rotate(90)"/>
+    <rect class="cls-4" x="446.5" y="860.5" width="394" height="15" transform="translate(1511.5 224.5) rotate(90)"/>
+    <rect class="cls-4" x="557" y="870" width="383" height="15" transform="translate(1626 129) rotate(90)"/>
+    <rect class="cls-4" x="661" y="870" width="383" height="15" transform="translate(1730 25) rotate(90)"/>
+    <rect class="cls-4" x="765.5" y="872.5" width="377" height="16" transform="translate(1834.5 -73.5) rotate(90)"/>
+    <rect class="cls-4" x="868" y="870" width="383" height="15" transform="translate(1937 -182) rotate(90)"/>
+    <rect class="cls-4" x="970.5" y="864.5" width="386" height="15" transform="translate(2035.5 -291.5) rotate(90)"/>
+    <rect class="cls-4" x="1716" y="863" width="398" height="14" transform="translate(2785 -1045) rotate(90)"/>
+    <rect class="cls-4" x="1071.5" y="864.5" width="386" height="15" transform="translate(2136.5 -392.5) rotate(90)"/>
+    <rect class="cls-4" x="1179.5" y="860.5" width="394" height="15" transform="translate(2244.5 -508.5) rotate(90)"/>
+    <rect class="cls-4" x="1302" y="865" width="387" height="15" transform="translate(2368 -623) rotate(90)"/>
+    <rect class="cls-4" x="1416.5" y="860.5" width="394" height="15" transform="translate(2481.5 -745.5) rotate(90)"/>
+    <rect class="cls-4" x="1522" y="865" width="387" height="15" transform="translate(2588 -843) rotate(90)"/>
+    <rect class="cls-4" x="1613.5" y="866.5" width="390" height="15" transform="translate(2682.5 -934.5) rotate(90)"/>
+  </g>
+  <g id="Layer_14" data-name="Layer 14">
+    <rect class="cls-2" x="493.5" y="236.5" width="370" height="199"/>
+    <rect class="cls-2" x="1085.5" y="236.5" width="370" height="199"/>
+    <rect class="cls-1" x="506.5" y="255.5" width="345" height="165"/>
+    <rect class="cls-1" x="1096.72" y="255.5" width="344.78" height="165"/>
+  </g>
+</svg>

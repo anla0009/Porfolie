@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 728 257">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e72500;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        font-family: GajrajOne-Regular, 'Gajraj One';
+        font-size: 96.91px;
+      }
+
+      .cls-3, .cls-2 {
+        fill: #000;
+      }
+    </style>
+  </defs>
+  <g id="Layer_27" data-name="Layer 27">
+    <g>
+      <rect class="cls-1" x=".5" y=".5" width="727" height="256" rx="62.52" ry="62.52"/>
+      <path class="cls-2" d="M664.98,1c34.2,0,62.02,27.82,62.02,62.02v130.96c0,34.2-27.82,62.02-62.02,62.02H63.02c-34.2,0-62.02-27.82-62.02-62.02V63.02C1,28.82,28.82,1,63.02,1h601.96M664.98,0H63.02C28.21,0,0,28.21,0,63.02v130.96c0,34.8,28.21,63.02,63.02,63.02h601.96c34.8,0,63.02-28.21,63.02-63.02V63.02c0-34.8-28.21-63.02-63.02-63.02h0Z"/>
+    </g>
+  </g>
+  <g id="Layer_25" data-name="Layer 25">
+    <text class="cls-3" transform="translate(56.96 145.06) scale(1.1 1)"><tspan x="0" y="0">gameover</tspan></text>
+  </g>
+</svg>

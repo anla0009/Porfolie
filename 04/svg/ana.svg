@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 435.31 522.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5ff45;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="ananas">
+    <path class="cls-1" d="M434.71,508.68c-155.19,19.3-279.85,17.32-434.12-9.41C33.09,334.52,92.75,167.66,130.33,2.86c99.33,21.91,108.16,13.15,204.41-2.29,38.01,169.19,64.34,338.52,99.97,508.11Z"/>
+    <path class="cls-2" d="M159.77,30.27C-11.61,492.27,84.79,492.27,84.79,492.27L159.77,30.27Z"/>
+  </g>
+</svg>

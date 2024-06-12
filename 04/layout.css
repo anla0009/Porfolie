@@ -1,0 +1,28 @@
+img {
+    padding: 1rem;
+    max-width: 100%;
+        height: auto;
+}
+
+.sketch{
+display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.sketch1 {
+max-width: 100%;
+height: auto;
+
+}
+
+h1 {
+    font-family: "Protest-Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #507DBC;
+    text-align: center;
+    padding: 6rem;
+}

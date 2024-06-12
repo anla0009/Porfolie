@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="layout" href="layout.css">
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div id="screen">
+            <div id="game">
+                <div id="game_background"></div>
+                <div id="game_elements">
+                    <div id="good_container1">
+                        <div id="good_sprite1"></div>
+                    </div>
+                    <div id="bad_container1">
+                        <div id="bad_sprite1"></div>
+                    </div>
+                </div>
+                <div id="game_foreground"></div>
+                <div id="game_ui">
+                    <div id="score_board">
+                        <div id="points"></div>
+                    </div>
+                    <div id="life_board">
+                        <div id="liv"></div>
+                    </div>
+                    <div id="time_board">
+                        <div id="time_container">
+                            <div id="time_sprite"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="start">
+                <p>Velkommen i køknet. Der er brug for din hjælp til at klikke på peperronierne så de kommer på pizzaen
+                    men ikke klikke på ananaserne så di ikke kommer på pizzaen.
+                </p>
+            </div>
+            <div id="game_over">
+                <p>game over</p>
+            </div>
+            <div id="level_complete">
+                <p>you won</p>
+            </div>
+
+        </div>
+        <audio src="lyd/Toggangen1.m4a" id="lyd1"></audio>
+        <audio src="lyd/Toggangen2.m4a" id="lyd2"></audio>
+        <audio src="lyd/Toggangen3.m4a" id="lyd3"></audio>
+        <audio src="lyd/Toggangen4.m4a" id="lyd4"></audio>
+
+    </main>
+    <footer>Lavet af Andreas Lausten</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

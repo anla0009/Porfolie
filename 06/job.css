@@ -1,0 +1,49 @@
+.job p {
+    max-width: 65ch;
+    line-height: 30px;
+} 
+
+.frivillig {
+text-align: center;
+}
+
+.door {
+    width: 100%;
+} 
+
+.live {
+    width: 100%;
+} 
+
+@media (min-width: 750px) {
+    .job p {
+        max-width: 95ch;
+        line-height: 35px;
+        margin-left: 325px;
+    }
+
+    .job_billeder {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: none;
+        margin-top: 50px;
+    }
+    
+    .door {
+        width: 62%;
+        margin-left: 238px;
+        grid-column: 1/2;
+    } 
+
+    .live {
+        grid-column: 2/3;
+        margin-left: -1px;
+        width: 62%;
+    } 
+
+    main {
+        background-image: url(billeder/frivillig-baggrund.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

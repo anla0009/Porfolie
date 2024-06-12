@@ -1,0 +1,103 @@
+/*************** Reset *********************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #A1C6EA;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+li{
+    color: #ffffff;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+body{
+    background-color: 
+            #201E1F
+        
+}
+h1 {
+    font-family: "Protest-Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #507DBC;
+    text-align: center;
+    padding: 1rem;
+}
+h2{
+    color: #507DBC;
+    padding: 10px;
+}
+h3{
+    color: #507DBC;
+    padding: 1rem;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    padding: 1rem;
+}
+dl{
+font-family: 'Times New Roman', Times, serif;
+color:#fbfbfb ;
+padding: 1rem;
+text-align: center;
+}
+footer{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #A1C6EA;
+    color: #000000;
+    padding: 20px;
+}
+img{
+    padding: 1rem;
+}
+/*************** Menu ****************/
+header {
+    position: sticky;
+    top: 0;
+    padding: 1rem 2rem;
+    box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header .logo a {
+    font-size: 2rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.4rem;
+    gap: 30px;
+    overflow-x: auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #5e6b74;
+}
+
+a:hover {
+    color: #252d38;
+}
+
+@media (max-width: 700px) {
+    header {
+        display: none;
+    }
+}
